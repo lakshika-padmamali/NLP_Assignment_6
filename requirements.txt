@@ -1,0 +1,33 @@
+# Core Dependencies
+python-dotenv
+requests
+
+# LangChain & FAISS for Retrieval-Augmented Generation
+langchain
+langchain-openai
+langchain-groq
+langchain-community
+faiss-cpu  # Change to faiss-gpu if using GPU acceleration
+
+# Embeddings & Vector Stores
+openai  # Required for OpenAI GPT-4 embeddings & model API
+tiktoken  # Tokenizer for OpenAI embeddings
+chromadb  # Alternative to FAISS if needed
+
+# Web Application (Frontend)
+streamlit  # For interactive chatbot UI
+streamlit-extras  # Additional UI features for customization
+
+# PDF & Document Processing
+PyMuPDF  # Load PDF files (for CV, LinkedIn profile)
+pdfminer-six  # Alternative for parsing PDFs
+unstructured  # For handling various document formats
+beautifulsoup4  # Web scraping (if required for GitHub README extraction)
+
+# FastAPI (Backend - Optional)
+fastapi  # Backend API to handle chatbot responses (if needed)
+uvicorn  # ASGI server for running FastAPI
+
+# Other Utilities
+pydantic  # Data validation
+numpy  # Required for FAISS indexing
