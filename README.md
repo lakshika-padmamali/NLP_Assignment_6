@@ -24,12 +24,11 @@ This project implements a **Retrieval-Augmented Generation (RAG) AI Chatbot** th
 
 ```
 📂 AI-Chatbot
-📂 A6.ipynb               # Notebook
+📂 nlp_A6.ipynb               # Notebook
 🏃 chatbot_results.json   # Pre-generated answers for the chatbot
 📄 README.md              # Project Documentation
 📒 requirements.txt       # Required Python packages              
 🎨 chatbot_ui.py          # Streamlit-based frontend UI
-🎨video_link              # A video demonstrating the chatbot's output responses
 ```
 
 ---
@@ -103,7 +102,8 @@ This chatbot can answer **10 key questions** related to personal and professiona
 
 - **Modern & Professional Look** 🖥️
 - **Responsive & user-friendly chat interface**
-- **A video demonstrating the chatbot's output responses is included to the git files
+- **A video demonstrating the chatbot's output responses is included in the link: https://drive.google.com/drive/folders/1ssm8v9ykEBOUV3rvsFhudOFrkyYJ-Xum?usp=sharing
+  
 
 - 
 ![image](https://github.com/user-attachments/assets/27a4ae70-ce4b-403e-9680-b197dbcab124)
